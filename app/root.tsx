@@ -34,6 +34,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       document.documentElement.classList.remove("dark");
     }
   `;
+
   return (
     <html lang="ja" translate="no">
       <head>
